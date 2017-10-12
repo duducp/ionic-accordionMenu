@@ -3,7 +3,7 @@ Accordion Menu - Ionic 3 e Angular 4
 
 ![Alt text](/img.gif "Exemplo do componente em ação")
 
-### Instalação
+## Instalação
 
 Copie a pasta "accordion-controller" para o diretório do seu projeto, normalmente fica no caminho: "src/components/".
 
@@ -34,7 +34,7 @@ Ficando parecido com isso:
   ],
 ```
 
-### Utilização
+## Utilização
 
 ```bash
 <accordion
@@ -43,9 +43,17 @@ Ficando parecido com isso:
     iconArrowColor="light"
     iconName="home"
     iconColor="light"
-    contentColor="primary"
-    open="true"
+    contentColor="light"
+    open="false"
 >
 Aqui fica o conteúdo que será mostrado após o menu ser expandido.
 </accordion>
 ```
+### Descrição
+- title: descrição que é mostrado no header;
+- headerColor: cor de fundo do header. Padrão: primary;
+- contentColor: cor de fundo do content. Padrão: light;
+- iconArrowColor: cor do arrow do menu. Padrão: light;
+- iconName: nome do icone que deseja mostrar no header. Deixe em branco para não mostrar nenhum ícone;
+- iconColor: cor do icone que será mostrado no header. Padrão: light;
+- open: deixe como TRUE se você quer que ele inicie espandido. Padrão: false;
