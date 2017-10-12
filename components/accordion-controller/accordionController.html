@@ -1,0 +1,23 @@
+<ion-card no-border no-margin no-shadow style="width: 100%">
+
+  <ion-card-header no-padding (click)="toggleAccordion()">
+
+    <ion-list no-lines>
+      <ion-item [color]="headerColor" no-border>
+        <button ion-button clear small icon-only item-right>
+          <ion-icon [color]="iconArrowColor" [name]="icon" class="arrow"></ion-icon>
+        </button>
+
+        <ion-icon icon-start [color]="iconColor" [name]="iconName" style="padding-right: 5px;"></ion-icon>
+        {{ title }}
+      </ion-item>
+    </ion-list>
+
+  </ion-card-header>
+
+  <ion-card-content no-padding #cc>
+    <ion-item [color]="contentColor" no-border>
+      <ng-content></ng-content>
+    </ion-item>
+  </ion-card-content>
+</ion-card>

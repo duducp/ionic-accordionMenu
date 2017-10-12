@@ -1,0 +1,15 @@
+accordion {
+  .card {
+    box-shadow: none;
+  }
+
+  .card-content {
+    max-height: 0px;
+  }
+
+  .arrow {
+      font-size: 1.8em !important;
+      padding: 0 !important;
+  }
+  
+}
