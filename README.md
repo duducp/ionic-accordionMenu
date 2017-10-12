@@ -56,4 +56,4 @@ Aqui fica o conteúdo que será mostrado após o menu ser expandido.
 - iconArrowColor: cor do arrow do menu. Padrão: light;
 - iconName: nome do icone que deseja mostrar no header. Deixe em branco para não mostrar nenhum ícone;
 - iconColor: cor do icone que será mostrado no header. Padrão: light;
-- open: deixe como TRUE se você quer que ele inicie espandido. Padrão: false;
+- open: deixe como TRUE se você quer que ele inicie expandido. Padrão: false;
